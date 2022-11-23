@@ -24,14 +24,15 @@ export class PockeApiInitPage extends LitElement {
   // Declare properties
   static get properties() {
     return {
-      name: { type: String, },
+      title: { type: String, },
+      page: { type: String, }
     };
   }
 
   // Initialize properties
   constructor() {
     super();
-    this.name = 'Cells';
+    console.log('hola desde el DM');
   }
 
   static get styles() {
